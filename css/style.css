@@ -22,7 +22,7 @@ header {
 
 /* inizio parte inf */
 .titolo-articolo {
-    height: 60px;
+    height: 70px;
     background-color: lightblue;
     
 }
@@ -40,8 +40,8 @@ header {
 }
 
 .corpo-articolo {
-    height: 500px; /* poi va tolto */
-    padding: 15px 0;
+    height: 450px; /* poi va tolto */
+    padding: 20px 0;
 
 }
 
@@ -53,8 +53,8 @@ header {
 
 .centrale {
     height: 100%;
-    width: calc(60% - 40px) ;
-    margin: 0 20px;
+    width: calc(60% - 30px) ;
+    margin: 0 15px;
 
 
 }
