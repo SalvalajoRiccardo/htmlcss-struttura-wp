@@ -10,9 +10,17 @@ header {
     margin-bottom: 20px;
 }
 
+/* inizio main */
+
 .jumbotron {
     height: 400px; /* poi va tolto */
     background-color: yellowgreen;
+    margin-bottom: 20px;
+}
+
+.titolo-articolo {
+    height: 60px;
+    background-color: lightblue;
 }
 
 .articolo {
@@ -20,6 +28,9 @@ header {
     background-color: blue;
 }
 
+/* fine main */
 footer {
     height: 50px;
+    background-color: purple;
+    margin-top: 10px;
 }
