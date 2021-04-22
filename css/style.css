@@ -12,21 +12,33 @@ header {
 
 /* inizio main */
 
+/* inizio parte sup */
 .jumbotron {
     height: 400px; /* poi va tolto */
     background-color: yellowgreen;
     margin-bottom: 20px;
 }
+/* fine parte sup */
 
+/* inizio parte inf */
 .titolo-articolo {
     height: 60px;
     background-color: lightblue;
+    margin-bottom: 15px;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .articolo {
     height: 500px; /* poi va tolto */
     background-color: blue;
 }
+
+
+/* fine parte inf */
 
 /* fine main */
 footer {
