@@ -27,14 +27,41 @@ header {
     margin-bottom: 15px;
 }
 
+/* inizio corpo articolo */
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+
 .articolo {
-    height: 500px; /* poi va tolto */
+    /* height: 500px; poi va tolto */
     background-color: blue;
+}
+
+.corpo-articolo {
+    height: 450px; /* poi va tolto */
+    border: 5px solid black;
+
+
+
+}
+
+.latelare {
+    height: 100%;
+    width: 20%;
+    
+}
+
+.centrale {
+    height: 100%;
+    width: 60%;
+
+}
+
+.float-left {
+    float: left;
+    background-color: lightblue;
 }
 
 
