@@ -24,7 +24,7 @@ header {
 .titolo-articolo {
     height: 60px;
     background-color: lightblue;
-    margin-bottom: 15px;
+    
 }
 
 /* inizio corpo articolo */
@@ -40,14 +40,12 @@ header {
 }
 
 .corpo-articolo {
-    height: 450px; /* poi va tolto */
-    border: 5px solid black;
-
-
+    height: 500px; /* poi va tolto */
+    padding: 15px 0;
 
 }
 
-.latelare {
+.laterale {
     height: 100%;
     width: 20%;
     
@@ -55,7 +53,9 @@ header {
 
 .centrale {
     height: 100%;
-    width: 60%;
+    width: calc(60% - 40px) ;
+    margin: 0 20px;
+
 
 }
 
